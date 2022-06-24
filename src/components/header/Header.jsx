@@ -3,7 +3,7 @@ import React, { useRef, useEffect } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 
 import './header.scss';
-import HeroSlide from '../hero slide/HeroSlide';
+
 
 import logo from '../../assets/tmovie.png';
 
@@ -48,7 +48,7 @@ const Header = () => {
           <div className="header__wrap container">
               <div className="logo">
                   <img src={logo} alt="" />
-                  <Link to="/">tMovies</Link>
+                  <Link to="/">PriFlix</Link>
               </div>
               <ul className="header__nav">
                   {
